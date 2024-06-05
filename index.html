@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="WDD 131 - Dynamic Web Fundamentals | [Melinda P. Competente] | [Keyword summary of page content]">
+    <title>WDD 131 - Dynamic Web Fundamentals - Melinda Competente</title>
+    <link rel="stylesheet" href="styles/base.css" /> 
+    <link rel="scripts" href="scripts/getdates.js"/>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Melinda Competente</h1>
+        <nav>
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">I-Learned</a></li>
+                <li><a href="#">Scripture</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="grid">
+                <div class="column1">
+                    <div class="row"></div>
+                        <h1>About Me</h1>
+                        <p>
+                            My name is Melinda P. Competente. My friends call me Melinds. I am currently working as a Junior High School teacher.
+                            My family, friends and my students are my world. I love spending time with them. I love learning new things and helping 
+                            others even in my own little way.
+                        </p>
+                        <img src="images/Melinda.jpg" alt="Description of the image" width="200" height="150">
+                        <h2>Camarines Sur, Philippines</h2>
+                        <p>
+                            <img src="images/PhilFlag.png" alt="Description of the image" width="200" height="150">
+                             
+                        <h3>Official Flag of the Philippines</h3>
+                        </p>
+                        <p>
+                            The Philippines is an archipelago, or string of over 7,100 islands, in southeastern Asia between the South China Sea and the Pacific Ocean.
+                            The two largest islands, Luzon and Mindanao, make up for two-thirds of the total land area.
+                        </p>
+                    </div>
+                </div>
+                <div class="column2"> 
+                    <div class="column right" style="background-color:#aaa;">
+                        <h1> Web Dev Resources</h1>
+                        <ul>   
+                            <li><a href="#">Dev. to Community</a></li>
+                            <li><a href="#">Smashing magazine</a></li>
+                            <li><a href="#">CSS tricks</a></li>
+                            <li><a href="#">W3 Schools</a></li>
+                            <li><a href="#">Udemy</a></li>
+                            <li><a href="#">Lorem Picsum Image Placeholder</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Copyright 2024 Melinda Competente Philippines.
+        </p>
+        <p>
+            Last Modification
+        </p>
+        <script>
+            document.getElementById("currentyear").textContent = new Date().getFullYear();
+        </script>
+        
+    </footer>
+</body>
+</html>
