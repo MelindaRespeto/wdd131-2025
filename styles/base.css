@@ -7,12 +7,12 @@
 h1 {
     background-color: lightblue;
     color: black;
-    padding: 10px;
+    padding: 15px;
     text-align: center;     
 }
 
 nav {
-    background-color: #333;
+    background-color: #170101;
     text-align: center; 
 }
 
@@ -40,27 +40,45 @@ nav ul li a:hover {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    grid-gap: 20px;
+    grid-gap: 50px;
     width: 100%;
+    text-align:center;
 }
 
 .column1, .column2 {
+    border: 5px solid #ccc;
+    padding: 40px;
+    box-sizing:border-box ;
+    float:left;
+    display: block;
+}
+.h4{
     border: 2px solid #ccc;
     padding: 20px;
     box-sizing: border-box;
-    float:left;
+    float:center;
+
 }
 
 footer h1 {
     text-align: center;
-    background-color: antiquewhite;
+    background-color: lightblue;
+    
+    padding: 15px;
+    text-align: center; 
     
 }
-
-
-
+.shaded{
+    font-size: small;
+    font-style: sans-serif;
+    text-align: justify;
+}
 
 p, ul {
     text-align: center;
+    justify-content: center;
+    font-style: verdana;
+    text-indent: 3%;
+    
     
 }
