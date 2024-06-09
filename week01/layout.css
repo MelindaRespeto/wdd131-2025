@@ -1,8 +1,7 @@
 *{
     grid-template-columns: auto 1fr auto/auto 1fr auto;
-}
 
-/* Basic styles */
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
