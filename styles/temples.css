@@ -9,12 +9,14 @@ header, main, footer {
     border: 1px solid;
     padding: 1rem; 
     background-color: #e6f2fe;
+    
 }
 
 
 main {
     display: grid;
     grid-template-columns: 1fr;
+    min-width: fit-content;
     
      
 }
