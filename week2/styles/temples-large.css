@@ -10,3 +10,7 @@
         display: grid; 
         grid-template-columns: 1fr 1fr; 
 }
+nav a {
+    justify-content: center;
+
+}
