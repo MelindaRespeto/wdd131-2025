@@ -1,30 +1,6 @@
-@media screen and (min-width: 640px) {
-h1{
-    font-size: 2.5rem;
-    margin: 1rem;
-    color:rgb(22, 22, 24);
-}
-}
-
-    
-header {
-        background: rgb(144, 143, 143);
-        color: rgb(49, 32, 32); 
-        justify-content: right;
-    }
-    nav ul{
-        flex:1 1 auto;
-    }
-    nav u li {
-        flex: 1 1 100%;
-        text-align: right;
-    }  
-    
-    .main {
-        display: grid; 
-        grid-template-columns: 1fr 1fr; 
-}
-nav a {
-    justify-content: center;
+@media screen and(min-width: 640px)
+{
+grid-template-columns: 1 fr 1fr;
 
 }
+

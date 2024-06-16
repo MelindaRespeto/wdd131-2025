@@ -1,36 +1,27 @@
 body {
     font-family: 'Roboto', sans-serif;
-    justify-content: center;
 }
 
 
-nav ul{
-    display:flex;
-    justify-content:space-evenly;
-    font-size: 20px;
-}
-nav ul li{
-    display:flex;
-    text-align: right;
-}
-footer {
-    text-align:left; 
-}
-a:hover {
-    color: rgb(29, 4, 4);
+header, main, footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid;
+    padding: 1rem; 
+    background-color: #e6f2fe;
 }
 
-
-p {
-    line-height: 1.6; 
-}
 
 main {
-    display: grid; 
-    grid-template-columns: 1fr; 
-    gap: 1rem; 
+    display: grid;
+    grid-template-columns: 1fr;
+    
+     
 }
-secion{
-    padding: 1rem;
-    background-color: ;
+
+
+section {
+    padding: 1rem; 
+    background-color: #fff; 
+    
 }
