@@ -26,7 +26,28 @@ nav a:hover{
     text-decoration:underline double;
 }
 .active{
-    color: rgb(239, 239, 182)
+    color: rgb(201, 201, 110)
+}
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    display: block;
+}
+
+.close-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
 }
 header {
 	background-color: #bbb;
@@ -47,16 +68,13 @@ main {
 h1 {
 	font-size: 2rem;
 }
+  
+.container {display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 25px;place-items: center;}
 
-
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    min-width: fit-content;
-    
-     
-}
-
+.figure {background-color:#fff;}
+.hover:hover { width: 100%; height: auto; margin: .5rem;}
+figcaption {font-size: smaller;}
 
 section {
     padding: 1rem; 

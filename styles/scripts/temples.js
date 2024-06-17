@@ -22,3 +22,14 @@ function updateDateTime() {
 updateCurrentYear();
 updateDateTime();
 setInterval(updateDateTime, 1000);
+const hamburgerIcon = document.querySelector('.hamburger-icon');
+const closeIcon = document.querySelector('.close-icon');
+const navLinks = document.querySelector('.nav-links');
+
+hamburgerIcon.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+});
+
+closeIcon.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+});
