@@ -1,6 +1,30 @@
-@media screen and(min-width: 640px){
+@media (min-width: 740px){
 
-grid-template-columns: 1 fr; }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav{
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+    nav a{
+        flex: 1 1 100%;
+
+    }
+    nav ul{ 
+        display:flex;
+        align-items: center;
+
+
+    }
+    nav ul li {
+		flex: 1 1 100%;
+	}
+}
+
+
 
 
     
