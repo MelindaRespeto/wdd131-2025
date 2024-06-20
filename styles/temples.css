@@ -33,22 +33,6 @@ nav a:hover{
     cursor: pointer;
 }
 
-.hamburger-icon {
-    display: block;
-}
-
-.close-icon {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px 0;
-}
 header {
 	background-color: #bbb;
 	display: grid;
@@ -69,8 +53,11 @@ h1 {
 	font-size: 2rem;
 }
   
-.container {display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-gap: 25px;place-items: center;}
+.container.container.stdlf {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    place-items: center;}
 
 .figure {background-color:#fff;}
 .hover:hover { width: 100%; height: auto; margin: .5rem;}
@@ -80,4 +67,29 @@ section {
     padding: 1rem; 
     background-color: #fff; 
     
+}
+.hamburger-menu {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.hamburger-icon {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333; 
+}
+
+.close-icon {
+    font-size: 24px;
+    color: #333; 
+    margin-top: 10px;
 }
