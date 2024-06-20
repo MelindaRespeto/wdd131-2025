@@ -1,7 +1,3 @@
-function updateCurrentYear() {
-    document.getElementById("currentyear").textContent = new Date().getFullYear();
-}
-
 
 function updateDateTime() {
     var now = new Date();
