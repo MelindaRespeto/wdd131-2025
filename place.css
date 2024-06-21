@@ -7,7 +7,8 @@ body
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-   
+    display: block;
+    margin: 8px;
     }
 
 header{
@@ -17,24 +18,35 @@ header{
     text-align: center;  
 	width:auto;
     font-size: larger;	
-    color:aliceblue;
+    color:rgb(31, 31, 31);
    
 }
 
 main{
-    grid-auto-columns: auto;
-    grid-template-rows: 1fr 2fr;
-
+    display:block;
+    background-color: white;
 }
-
-
-
-    
+.h2{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: large;
+    padding:5px;   
+       
+}
+.p{
+    padding:5px 0;
+    text-align: center;
+    line-height: 50px;
+    color:black;
+}
 footer{
-    
+    background-color: red;
 	align-items: center;
 	justify-content: center;
     text-align: center;  
+	width:auto;
+    font-size: larger;	
+    color:aliceblue;
 	
 }
 
