@@ -1,43 +1,31 @@
+
 body 
     .roboto-thin {
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     }
 
-    header {
-        background-color: #f22727;
-        display: grid;
-        grid-gap: 1rem;
-        align-items: center;
-        justify-content: center;
-        padding: 30px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        text-size-adjust: 16px;
-        letter-spacing: 15px;
-        font-size: larger;
-        color:whitesmoke;
-    }
+header{
+    background-color: red;
+	display: grid;
+    grid-gap: 1rem;
+	align-items: center;
+	justify-content: center;
+main{
+    grid-auto-columns: auto;
+}
+	
+    
+}
 
-    main {
-        margin: 0 auto;
-    }
+footer{
+    background-color: red;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+    
+   
+		
+}
 
-
-
-    body {
-        background-color: rgb(194, 248, 230);
-    }
-
-    footer {
-        background-color: #f22727;
-        grid-gap: 1rem;
-        align-items: center;
-        padding: 10px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        text-size-adjust: 16px;
-        color:whitesmoke;
-        justify-content: center;
-
-    }
-        
