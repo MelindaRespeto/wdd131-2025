@@ -4,28 +4,37 @@ body
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+   
     }
 
 header{
     background-color: red;
-	display: grid;
-    grid-gap: 1rem;
 	align-items: center;
 	justify-content: center;
-main{
-    grid-auto-columns: auto;
-}
-	
-    
+    text-align: center;  
+	width:auto;
+    font-size: larger;	
+    color:aliceblue;
+   
 }
 
+main{
+    grid-auto-columns: auto;
+    grid-template-rows: 1fr 2fr;
+
+}
+
+
+
+    
 footer{
-    background-color: red;
+    
 	align-items: center;
 	justify-content: center;
-    text-align: center;
-    
-   
-		
+    text-align: center;  
+	
 }
 
