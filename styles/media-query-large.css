@@ -1,5 +1,1 @@
-@media screen and(min-width: 640px)
-{
-grid-template-columns: 1 fr 1fr;
-
-}
+@media screen (min-width:);

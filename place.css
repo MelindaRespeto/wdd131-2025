@@ -19,34 +19,42 @@ header{
 	width:auto;
     font-size: larger;	
     color:rgb(31, 31, 31);
+    text-align: center;
    
 }
 
 main{
-    display:block;
+    
     background-color: white;
 }
-.h2{
-    background-color: aquamarine;
-    text-align: center;
-    font-size: large;
-    padding:5px;   
-       
-}
-.p{
-    padding:5px 0;
-    text-align: center;
-    line-height: 50px;
-    color:black;
-}
 footer{
-    background-color: red;
+    background-color: rgb(250, 1, 1);
 	align-items: center;
 	justify-content: center;
     text-align: center;  
-	width:auto;
+	width:6000;
     font-size: larger;	
     color:aliceblue;
 	
 }
+.div2 {
+   
+    text-align: center;
+    
+}
+
+.div1 {
+    text-align: center;
+}
+
+
+.cloud {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
 

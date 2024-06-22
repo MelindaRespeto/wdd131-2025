@@ -1,0 +1,72 @@
+@media only screen and (min-width:1000px){
+    .div1 {
+        background-color: rgba(255, 251, 251, 0.7);
+        margin: 20px;
+        width: 250px;
+        height: 310px;
+        padding: 20px;
+       
+        text-align: center;
+    }
+
+    body{
+        background: url(image/boracay.jpg);
+        margin: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    }
+
+    .div2 {
+        background-color: rgba(255, 251, 251, 0.7);
+        margin: 20px;
+        width: 250px;
+        height: 310px;
+        padding: 20px;
+       
+        text-align: center;
+        position: relative;
+        left: 1250px;
+
+
+    }
+
+    .Data {
+        background-color: green;
+        position: relative;
+        right: 50px;
+    }
+    .weather {
+        background-color: green;
+        position: relative;
+        right: 50px;
+    }
+
+    .header1{
+        height: 80px;
+        text-align: center;
+        padding: 20px;
+        align-items: center;
+        width: auto;
+    }
+
+
+    .title {
+        margin: 0px;
+    }
+    .divfooter {
+        background-color: red;
+       
+        width: 1600px;
+        position: relative;
+        left: 0px;
+    }
+    footer {
+        width: auto;
+    }
+    .footer1{
+        width: auto;
+    }
+}
+
