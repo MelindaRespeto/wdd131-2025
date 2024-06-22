@@ -1,10 +1,25 @@
 
-let currentDate = new Date();
 
 
-let day = currentDate.getDate(); 
-let month = currentDate.getMonth() + 1; 
-let year = currentDate.getFullYear(); 
-let hours = currentDate.getHours(); 
-let minutes = currentDate.getMinutes(); 
-let seconds = currentDate.getSeconds(); 
+function getCurrentDate() {
+    let currentDate = new Date();
+    let year = currentDate.getFullYear();
+    let month = currentDate.getMonth() + 1; 
+    let day = currentDate.getDate();
+
+    
+    let formattedDate = `${year}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
+
+
+    return formattedDate;
+}
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    let dateElement = document.getElementById('currentDate');
+    if (dateElement) {
+        dateElement.textContent = getCurrentDate();
+    } else {
+        console.error('Element with id "currentDate" not found.');
+    }
+});
