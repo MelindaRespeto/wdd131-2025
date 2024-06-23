@@ -3,7 +3,7 @@
         background-color: rgba(255, 251, 251, 0.7);
         margin: 20px;
         width: 250px;
-        height: 310px;
+        height: 350px;
         padding: 20px;
        
         text-align: center;
@@ -46,8 +46,8 @@
         height: 80px;
         text-align: center;
         padding: 20px;
-        align-items: center;
-        width: auto;
+        
+        width: 1650px;
     }
 
 
@@ -57,7 +57,7 @@
     .divfooter {
         background-color: red;
        
-        width: 1600px;
+        width: 1650px;
         position: relative;
         left: 0px;
     }
@@ -65,7 +65,12 @@
         width: auto;
     }
     .footer1{
+        width: 1690px;
+    }
+
+    .date {
         width: auto;
     }
+
 }
 
