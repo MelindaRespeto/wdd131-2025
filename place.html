@@ -16,7 +16,7 @@
         <h2 class="title">Boracay Philippines</h2>
     </header>
     
-        <img src="image/boracay.jpg" width= "300px" alt="Error"> 
+        <img src="image/boracay (1).webp" width= "300px" alt="Error"> 
 
         <div class="div1">
             
@@ -40,10 +40,10 @@
                 
             </h2>
             <img src="image/cloudy-1265205_1280.png" alt="error" class="cloud">
-            <p>Temperature:29 0C</p>
-            <p>Conditions:</p>    
-            <p>Wind:</p>    
-            <p>Wind Chill:</p>   
+            <p>Temperature: 84.2 Fahrenheit</p>
+            <p>Conditions: Warm and Breezy</p>    
+            <p>Wind:5 m/h</p>    
+            <p>Wind Chill: 88.39 (sample)</p>   
         </div>
         
 
@@ -63,7 +63,15 @@
             </p>
         </div>
 
-        <div id="currentDate"></div>
+            <div id="currentDate" class="date"></div>
+           
+<p>Enter the current temperature in Fahrenheit (°F) and wind speed in miles per hour (mph), then click the button to calculate the wind chill.</p>
+<label for="temperature">Temperature (°F):</label>
+<input type="number" id="temperature" placeholder="Enter temperature" required>
+<label for="windSpeed">Wind Speed (mph):</label>
+<input type="number" id="windSpeed" placeholder="Enter wind speed" required>
+<button onclick="calculateWindChill()">Calculate Wind Chill</button>
+<p id="result"></p>
 
     </footer>
 </html>
