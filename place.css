@@ -19,13 +19,16 @@ header{
 	width:auto;
     font-size: larger;	
     color:rgb(228, 207, 207);
-   
-   
 }
+
 
 main{
     
     background-color: white;
+}
+.pic{
+    align-items: center;
+
 }
 footer{
     background-color: rgb(250, 1, 1);
