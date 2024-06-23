@@ -19,15 +19,20 @@ header{
 	width:auto;
     font-size: larger;	
     color:rgb(228, 207, 207);
+    
 }
 
 
 main{
     
     background-color: white;
+    
 }
 .pic{
     align-items: center;
+    background-size: 100%;
+    
+
 
 }
 footer{
@@ -38,6 +43,7 @@ footer{
 	width:auto;
     font-size: larger;	
     color:aliceblue;
+    padding-top: 30px;
 	
 }
 .div2 {
