@@ -6,11 +6,11 @@
         height: 350px;
         padding: 20px;
         text-align: center;
-        
+        position: relative;
     }
 
     body{
-        background: url(image/boracay.jpg);
+        background: url('image/boracay.jpg');
         margin: 0px;
         background-repeat: no-repeat;
         background-size: cover;
