@@ -1,4 +1,9 @@
 @media (min-width:1000px){
+    :root {
+        --main-color: #08ef70;
+        --secondary-color: #f42109;
+        --base-font-size: 16px;
+    }
     .div1 {
         background-color: rgba(255, 251, 251, 0.7);
         margin: 20px;
