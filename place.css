@@ -17,7 +17,7 @@ header{
 	justify-content: center;
     text-align: center;  
 	width:auto;
-    font-size: larger;	
+    font-size: 18pt;	
     color:rgb(228, 207, 207);
     
 }
@@ -68,5 +68,9 @@ footer{
 
 
 
-
+.pic {
+    position: relative;
+    left: 240px;
+    height: 280px;
+}
 

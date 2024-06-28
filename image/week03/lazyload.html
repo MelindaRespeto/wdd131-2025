@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="width=device-width, initial-scale=1.0">
+    <title>Lazyload HTML</title>
+    <link rel="stylesheet" href="lazyload.css">
+    
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <picture>
+            <img src="images/phil.jpg" alt ="Flower" width=400 height=600
+            loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+            <img src="images/phil.jpg" alt ="Flower" width=400 height=600
+            loading="lazy" width="450px" height="650px">
+        </picture>
+        <picture>
+            <img src="images/phil.jpg" alt ="Flower" width=400 height=600
+            loading="lazy" width="450px" height="650px">
+        </picture>
+        <picture>
+            <img src="images/phil.jpg" alt ="Flower" width=400 height=600
+            loading="lazy" width="450px" height="650px">
+        </picture>
+        <picture>
+            <img src="images/phil.jpg" alt ="Flower" width=400 height=600
+            loading="lazy" width="450px" height="650px">
+        </picture>
+        <picture>
+            <img src="images/phil.jpg" alt ="Flower" width=400 height=600
+            loading="lazy" width="450px" height="650px">
+        </picture>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> Copyright 2024 Melinda Competente Philippines.
+        </p>
+        <p>
+            Last Modification
+        </p>
+        <script>
+            document.getElementById("currentyear").textContent = new Date().getFullYear();
+        </script> 
+
+    </footer>
+    
+</body>
+</html>

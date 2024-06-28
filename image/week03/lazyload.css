@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+main{
+    margin:0 auto;
+    width:400px;
+    display:flex;
+    flex-direction: column;
+}
+body{
+    display:block;
+}
+img{
+    display:100%;
+    background-color: aliceblue;
+    animation: fade 15s;
+
+}
+
+@keyframes fade {
+    0% 
+    {opacity: 0;
+    }
+    100% {opacity:1
+    }
+    
+}
