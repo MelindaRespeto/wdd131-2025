@@ -16,6 +16,8 @@
         padding: 20px;
         text-align: center;
         position: relative;
+        background-color: var(--main-color);
+        color: var(--secondary-color);
     }
 
     body{
