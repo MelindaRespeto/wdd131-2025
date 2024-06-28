@@ -10,11 +10,10 @@
     }
 
     body{
-        background: url('image/boracay.jpg');
+        background: url('boracay.jpg');
         margin: 0px;
         background-repeat: no-repeat;
         background-size: cover;
-        
         
     }
 
@@ -70,6 +69,9 @@
 
     .date {
         width: auto;
+    }
+    .main {
+        background-color: rgba(255, 251, 251, 0.0);
     }
 
 }
