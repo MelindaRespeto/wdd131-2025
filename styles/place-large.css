@@ -88,6 +88,7 @@
         position: relative;
         left: 240px;
         height: 280px;
+        transform: translateX(-50%);
         
         
         
