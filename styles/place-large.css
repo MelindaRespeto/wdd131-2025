@@ -74,5 +74,15 @@
         background-color: rgba(255, 251, 251, 0.0);
     }
 
+    .pic::after {
+        
+        position: relative;
+        left: 240px;
+        height: 280px;
+        
+        
+        
+    }
+
 }
 
