@@ -1,0 +1,76 @@
+
+body 
+    .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    display: block;
+    margin: 8px;
+    }
+
+header{
+    background-color: red;
+	align-items: center;
+	justify-content: center;
+    text-align: center;  
+	width:auto;
+    font-size: 18pt;	
+    color:rgb(228, 207, 207);
+    
+}
+
+
+main{
+    
+    background-color: white;
+    
+}
+.pic{
+    align-items: center;
+    background-size: 100%;
+    
+
+
+}
+footer{
+    background-color: rgb(250, 1, 1);
+	align-items: center;
+	justify-content: center;
+    text-align: center;  
+	width:auto;
+    font-size: larger;	
+    color:aliceblue;
+    padding-top: 30px;
+	
+}
+.div2 {
+   
+    text-align: center;
+    
+}
+
+.div1 {
+    text-align: center;
+}
+
+
+.cloud {
+    width: 50px;
+    height: 50px;
+}
+.currentdate{
+    text-align: center;
+}
+
+
+
+
+.pic {
+    position: relative;
+    left: 240px;
+    height: 280px;
+}
+
