@@ -63,6 +63,7 @@ h1 {
     margin-left: auto;
     padding: 5%; ;
     padding-right: 5%;
+    background: #bbb;
 }
 .temple-card{
     content: "";
