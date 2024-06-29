@@ -9,10 +9,12 @@
         justify-content: flex-end;
         flex-direction: row;
     }
+
     nav a{
         flex: 1 1 100%;
 
     }
+
     nav ul{ 
         display:flex;
         align-items: center;
@@ -25,3 +27,4 @@
     img{
         box-sizing: content-box;
     }
+}

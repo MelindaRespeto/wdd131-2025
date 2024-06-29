@@ -47,6 +47,28 @@ const temples = [
         dedicated: "1983, December, 2",
         area: 116642,
         imageUrl: "[Mexico City Mexico](https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-lds-273998-wallpaper.jpg)"
+    },
+    {
+        templeName: "Manila Philippines",
+        location: "Manila, Philippines",
+        dedicated: "1984,September, 25",
+        area: 26683,
+        imageUrl: "[Manila City Philippiens](https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manila-philippines/400x250/manila-philippines-temple-lds-129585-wallpaper.jpg)"
+
+    },
+    {
+        templeName: "Cebu City Philippines",
+        location: "Cebu City, Philippines",
+        dedicated: "2010, June, 13",
+        area: 29556,
+        imageUrl: "[Cebu City Philippines](https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cebu-city-philippines/400x250/cebu-philippines-temple-lds-852643-wallpaper.jpg)"
+    },
+    {
+        templeName: "Columbia-South-Carolina",
+        location: "Columbia-South-Carolina",
+        dedicated: "1999, October, 15-16",
+        area: 10700 ,
+        imageUrl: "[Columbia-South-Carolina](https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-south-carolina/400x250/columbia-temple-768161-wallpaper.jpg)"
     }
 
 ];

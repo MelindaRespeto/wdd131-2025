@@ -50,9 +50,9 @@ h1 {
 	font-size: 2rem;
 }
   
-.container.container.stdlf {
+.container .container stdlf {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr ));
     grid-gap: 25px;
     place-items: center;
     width: 100%;
@@ -65,7 +65,7 @@ h1 {
     content: "";
     display: grid;
     clear: both;
-    flex: 50%;
+    flex: 100%;
 }
 
 .img{
