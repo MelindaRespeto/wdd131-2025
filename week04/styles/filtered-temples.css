@@ -57,7 +57,18 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 25px;
-    place-items: center;}
+    place-items: center;
+    float:left;
+    width: 50%;
+    margin-left: auto;
+    padding: 5%; ;
+    padding-right: 5%;
+}
+.temple-card{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .figure {background-color:#fff;}
 .hover:hover { width: 100%; height: auto; margin: .5rem;}
