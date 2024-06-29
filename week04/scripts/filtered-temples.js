@@ -51,12 +51,12 @@ const temples = [
 
 ];
 
-// Print the corrected list of temple details
 for (const temple of temples) {
     console.log(`Temple Name: ${temple.templeName}`);
     console.log(`Location: ${temple.location}`);
     console.log(`Dedicated: ${temple.dedicated}`);
-    console.log(`Area: ${temple.area} square meters`);
+    console.log(`Area: ${temple.area} square feet`);
     console.log(`Image URL: ${temple.imageUrl}`);
     console.log("\n");
 }
+

@@ -28,10 +28,7 @@ nav a:hover{
 .active{
     color: rgb(201, 201, 110)
 }
-.hamburger-menu {
-    display: none;
-    cursor: pointer;
-}
+
 
 header {
 	background-color: #bbb;
@@ -58,50 +55,20 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 25px;
     place-items: center;
-    float:left;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
-    padding: 5%; ;
-    padding-right: 5%;
+    padding: 10%; ;
+    padding-right: 10%;
     background: #bbb;
 }
 .temple-card{
     content: "";
-    display: table;
+    display: grid;
     clear: both;
+    flex: 50%;
 }
 
-.figure {background-color:#fff;}
-.hover:hover { width: 100%; height: auto; margin: .5rem;}
-figcaption {font-size: smaller;}
-
-section {
-    padding: 1rem; 
-    background-color: #fff; 
-    
-}
-.hamburger-menu {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
-
-.hamburger-icon {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.bar {
-    width: 30px;
-    height: 3px;
-    background-color: #333; 
-}
-
-.close-icon {
-    font-size: 24px;
-    color: #333; 
-    margin-top: 10px;
+.img{
+    overflow-clip-margin: content-box;
+    box-sizing: border-box;
 }

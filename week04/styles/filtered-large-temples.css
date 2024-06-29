@@ -22,23 +22,6 @@
     nav ul li {
 		flex: 1 1 100%;
 	}
-    .hamburger-menu {
-        display: flex; 
-        align-items: center;
-        justify-content: space-between;
+    img{
+        box-sizing: content-box;
     }
-
-    .hamburger-icon {
-        display: none; 
-    }
-
-    .close-icon {
-        display: block;
-    }
-}
-
-
-
-
-
-    
