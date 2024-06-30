@@ -81,4 +81,8 @@ for (const temple of temples) {
     console.log(`Image URL: ${temple.imageUrl}`);
     console.log("\n");
 }
-
+{
+let d = new Date();
+document.getElementById("CurrentYear").innerHTML = '&copy;${d.getFullYear()}';
+document.querySelector ('#lastModified').textContent = 'Last Modofication: ${document.lastMofdified}';
+}
