@@ -81,6 +81,16 @@ for (const temple of temples) {
     console.log(`Image URL: ${temple.imageUrl}`);
     console.log("\n");
 }
+
+createTempleCard(temples);
+
+const oldlink = document.nonqueryselector("#old");
+oldlink=addEventlistener("click,() ")
+createTempleCard(temples.filter) temple.location includes()));
+)));
+
+
+
 {
 let d = new Date();
 document.getElementById("CurrentYear").innerHTML = '&copy;${d.getFullYear()}';
