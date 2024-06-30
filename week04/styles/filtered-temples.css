@@ -6,20 +6,24 @@ body
     }
 
 nav{
-    background-color:#36454f;;
+    background-color:#0c0f11;;
     margin: auto;
-    max-width: 800px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
+    list-style: none;
+	align-items: justify;
+    flex: 1 1 1 100%;
+    text-align: center;
+    
 }
 nav ul{
     list-style-type: none;
 }
 nav a {
     display: block;
-    color:  #fff;
-    text-align: center;
-    padding:1rem;
+    color:  #f2eaea;
+    padding:3rem;
     text-decoration: none;
 }
 nav a:hover{
@@ -45,30 +49,43 @@ header,
 main {
 	margin: 0 auto;
 }
-
+main{
+    background-color: rgb(158, 158, 152);
+}
 h1 {
 	font-size: 2rem;
 }
   
 .container .container stdlf {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr ));
-    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px;
     place-items: center;
     width: 100%;
     margin-left: auto;
-    padding: 10%; ;
+    padding: 20%; ;
     padding-right: 10%;
-    background: #bbb;
+    background: #2a1d1d;
 }
 .temple-card{
+   
     content: "";
     display: grid;
     clear: both;
     flex: 100%;
+    border:1px solid #575454;
+    padding: 10px;
+    margin: 10px;
 }
 
-.img{
-    overflow-clip-margin: content-box;
+.temple-card img{
     box-sizing: border-box;
+    max-width: 100%;
+    width: auto;
+    display: block;
+    
+    
+    
 }
+
+
