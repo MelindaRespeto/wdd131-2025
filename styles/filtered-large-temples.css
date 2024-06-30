@@ -34,4 +34,21 @@
         gap: 10px; 
         
     }
+    .temple-name {
+        font-size: large;
+        font-weight: bold;
+    }
+    .temple-card {
+        text-align: center;
+        align-self: center;
+        
+    }
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    
 }
