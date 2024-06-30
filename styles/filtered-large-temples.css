@@ -27,4 +27,11 @@
     img{
         box-sizing: content-box;
     }
+    .container_stdlf {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px; 
+        
+    }
 }
