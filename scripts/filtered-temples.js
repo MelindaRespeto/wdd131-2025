@@ -73,26 +73,15 @@ const temples = [
 
 ];
 
-for (const temple of temples) {
-    console.log(`Temple Name: ${temple.templeName}`);
-    console.log(`Location: ${temple.location}`);
-    console.log(`Dedicated: ${temple.dedicated}`);
-    console.log(`Area: ${temple.area} square feet`);
-    console.log(`Image URL: ${temple.imageUrl}`);
-    console.log("\n");
-}
 
-createTempleCard(temples);
+const oldlink = document.querySelector("#old");
 
-const oldlink = document.nonqueryselector("#old");
-oldlink=addEventlistener("click,() ")
-createTempleCard(temples.filter) temple.location includes()));
-)));
+oldlink.addEventListener("old", () => {
+    createTemplecards(temples.filter(temple => temple.location < 1900));
+});
 
 
-
-{
-let d = new Date();
-document.getElementById("CurrentYear").innerHTML = '&copy;${d.getFullYear()}';
-document.querySelector ('#lastModified').textContent = 'Last Modofication: ${document.lastMofdified}';
-}
+const currentYear = new Date().getFullYear();
+const lastModified = "July 2, 2024";
+document.getElementById("CurrentYear").textContent = currentYear;
+document.getElementById("lastModified").textContent = lastModified;

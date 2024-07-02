@@ -47,4 +47,8 @@ body {
   .blank {
     background-color: #4f86b3;
   }
-  
+
+createtemplecards(temple);
+
+const oldlink=document.querySelector("#old");
+  }
