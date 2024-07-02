@@ -82,6 +82,5 @@ oldlink.addEventListener("old", () => {
 
 
 const currentYear = new Date().getFullYear();
-const lastModified = "July 2, 2024";
 document.getElementById("CurrentYear").textContent = currentYear;
 document.getElementById("lastModified").textContent = lastModified;
