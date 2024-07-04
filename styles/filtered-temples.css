@@ -1,62 +1,65 @@
+@import "filtered-large-temples.css" screen and (max-width: 740px);
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
 
-@import "filtered-large-.css" screen and (max-width: 740px);
-body 
-    .roboto-thin {
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-    }
-
-nav{
-    background-color:#0c0f11;;
+nav {
+    background-color: #0c0f11;
     margin: auto;
     max-width: 900px;
     display: flex;
     flex-direction: column;
     list-style: none;
-	align-items: center;
+    align-items: center;
     flex: 100%;
     text-align: center;
-    
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
 }
+
 nav a {
     display: block;
-    color:  #f2eaea;
-    padding:3rem;
+    color: #f2eaea;
+    padding: 3rem;
     text-decoration: none;
 }
-nav a:hover{
-    text-decoration:underline double;
-}
-.active{
-    color: rgb(201, 201, 110)
+
+nav a:hover {
+    text-decoration: underline double;
 }
 
+.active {
+    color: rgb(201, 201, 110);
+}
 
 header {
-	background-color: #bbb;
-	display: grid;
+    background-color: #bbb;
+    display: grid;
     grid-gap: 1rem;
-	align-items: center;
-	justify-content: center;
-	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 30px #333;
 }
-    
-header, main {
-	margin: 0 auto;
+
+header,
+main {
+    margin: 0 auto;
 }
-main{
+
+main {
     background-color: rgb(158, 158, 152);
 }
+
 h1 {
-	font-size: 2rem;
+    font-size: 2rem;
 }
-  
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -64,29 +67,26 @@ h1 {
     place-items: center;
     width: 100%;
     margin-left: auto;
-    padding: 20%; ;
+    padding: 20%;
     padding-right: 10%;
     background: #2a1d1d;
 }
-.temple-card{
-   
+
+.temple-card {
     content: "";
     display: grid;
     clear: both;
     flex: 100%;
-    border:1px solid #575454;
+    border: 1px solid #575454;
     padding: 10px;
     margin: 10px;
 }
 
-.temple-card img{
+.temple-card img {
     box-sizing: border-box;
     max-width: 100%;
     width: auto;
     display: block;
-    
-    
-    
 }
 
 

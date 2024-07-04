@@ -81,6 +81,11 @@ oldlink.addEventListener("old", () => {
 });
 
 
-const currentYear = new Date().getFullYear();
-document.getElementById("CurrentYear").textContent = currentYear;
-document.getElementById("lastModified").textContent = lastModified;
+
+function getCurrentDatetime() {
+    const currentDatetime = new Date();
+    const formattedDatetime = currentDatetime.toLocaleString();
+    console.log(`Current date and time: ${formattedDatetime}`);
+}
+
+getCurrentDatetime();
