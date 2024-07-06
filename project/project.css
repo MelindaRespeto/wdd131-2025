@@ -4,12 +4,13 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
   }
   
   
   header {
     background-color: #666;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     font-size: 35px;
     color: white;
@@ -34,23 +35,20 @@
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: rgb(6, 214, 160);
     height: 300px;
   }
   
-  
-  section::after {
-    content: "";
-    display: table;
-    clear: both;
+  .class {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    height: 200px;
   }
   
-  
-
   footer {
     background-color: #666;
-    padding: 30px;
+    padding: 20pxpx;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     color: white;
   }
