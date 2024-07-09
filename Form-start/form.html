@@ -16,7 +16,7 @@
     <link href="css/small.css" rel="stylesheet">
 
     <link href="css/medium.css" rel="stylesheet">
-    <script src="scripts/form.js" defer></script>
+    
     <link href="css/large.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -38,7 +38,7 @@
             <h4>Product Name</h4> 
             <form action="review.html" method="get">
                 <select class="phil-product" id="product" name="product" required>
-                    <option disabled>Choose a Product...</option>
+                    <option value="">Choose a Product &#9662;</option>
                     <option value="MC">Microwave</option>
                     <option value="AC">Air Conditioning</option>
                     <option value="EK">Electric Keetle</option>
@@ -100,13 +100,24 @@
 </body>
 </main>
 <footer>
-    <p>Footer content&copy;<span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
-    <p>Last modification: <span id="lastModified"></span></p>
+    <p> &copy; <span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
+        <p>Last modification: <span id="lastModified"></span></p>
+    
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Set current year in the footer
+            var currentYear = new Date().getFullYear();
+            document.getElementById("currentYear").textContent = currentYear;
+
+            // Get last modified date of the document
+            var lastModifiedDate = new Date(document.lastModified);
+            document.getElementById("lastModified").textContent = lastModifiedDate.toLocaleString();
+        });
+    </script>
 
 </footer>
 
 </html>
               
 
-            

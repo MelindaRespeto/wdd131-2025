@@ -4,7 +4,7 @@
     background-color: rgb(33, 30, 32);
     color: white;
     text-align: center;
-    height: 50px;
+    height: 60px;
 }
 
 .body_1 {
@@ -15,6 +15,11 @@
 }
 .phil-product {
     width: 300px;
+    border-radius: 6px;
+    padding: 8px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
 }
 
 /*  rating css   */
@@ -56,6 +61,8 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
+    
+
 }
 
 h2 {
@@ -79,12 +86,13 @@ input[type="date"] {
     margin-bottom: 15px;
 }
 
+
 button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
+    padding: 20px 30px;
+    background-color: #91ee94;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
 }
@@ -99,6 +107,7 @@ button:hover {
 .button1 {
     background-color: rgb(171, 168, 168);
     margin-top: 10px;
+    border-radius: 4px;
 }
 
 
