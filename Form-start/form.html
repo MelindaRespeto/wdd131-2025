@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fill Me In">
+    <meta name="author" content="Melinda Competente">
+
+
+    <title>HTML5 Product Review Form - Melinda P. Competente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link href="form.css" rel="stylesheet">
+
+    <link href="css/small.css" rel="stylesheet">
+
+    <link href="css/medium.css" rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="header_1">
+        
+        <h1>Product Review</h1> 
+        
+    </div>
+
+    <main>
+        
+        
+
+        <div class="body_1">
+             
+            <h4>Product Name</h4> 
+            <form action="review.html" method="get">
+                <select class="phil-product" id="product" name="product" required>
+                    <option disabled>Choose a Product...</option>
+                    <option value="MC">Microwave</option>
+                    <option value="AC">Air Conditioning</option>
+                    <option value="EK">Electric Keetle</option>
+                    <option value="REF">Refrigerator</option>
+                    <option value="EF">Electric Fan</option>
+                    <option value="T">Toaster</option>
+                    <option value="D">Dishwasher</option>
+                    <option value="TV">Television</option>
+                    <option value="FP">Food processor</option>
+                    <option value="FI">Flat Iron</option>
+                    <option value="AP">Air Purifier</option>
+                    <option value="F">Fryer</option>
+                    <option value="J">Juicer</option>
+                    <option value="MC">Multi Cooker</option>
+                    <option value="HEAT">Heater</option>
+                    <option value="O">Oven</option>
+                    <option value="CM">Coffee Maker</option>
+                    <option value="S">Stove</option>
+                </select>
+
+                <h4> Overall Rating</h4>
+
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                  </div>
+
+
+                  <h4>Date of Installation</h4>
+                  <input type="date" id="date" name="date" pattern="\d{2}/\d{2}/\d{4}" required>
+                  
+                  <h4>
+                    Which feature did you find useful in the product?
+                    (Check all that apply)
+                  </h4>
+                  <label for="option1"><input type="checkbox" id="option1" name="options" class="checkbox"> Durability</label><br>
+                  <label for="option2"><input type="checkbox" id="option2" name="options" class="checkbox"> Ease of Use</label><br>
+                  <label for="option3"><input type="checkbox" id="option3" name="options" class="checkbox"> Performace</label><br>
+                  <label for="option4"><input type="checkbox" id="option4" name="options" class="checkbox"> Design</label><br>
+
+                  <h4>Written Review (Optional)</h4>
+                  <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Write your comment here..."></textarea>
+
+                  <h4>Your Name (Optional)</h4>
+                  <input type="text" id="name" name="name" placeholder="Enter your name...">
+                
+                  <button type="submit" class="button1">Post Review</button>
+                
+
+
+            </form>
+
+
+        </div>
+
+</body>
+</main>
+<footer>
+    <p>Footer content&copy;<span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
+    <p>Last modification: <span id="lastModified"></span></p>
+
+
+</footer>
+
+</html>
+              
+
+            

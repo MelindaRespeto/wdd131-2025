@@ -1,0 +1,104 @@
+
+
+.header_1 {
+    background-color: rgb(33, 30, 32);
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.body_1 {
+    background-color: gray;
+    height: 1000px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.phil-product {
+    width: 300px;
+}
+
+/*  rating css   */
+
+.rating {
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    color: #e0e0e0;
+    font-size: 30px;
+    height: 40px;
+    position: relative;
+    width: auto;
+  }
+  
+  .rating .fa-star {
+    cursor: pointer;
+    float: left; /* Align stars from left to right */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .rating .fa-star:hover,
+  .rating .fa-star:hover ~ .fa-star {
+    color: #ffcf0f; /* Change color on hover */
+  }
+  
+  .rating .fa-star.selected,
+  .rating .fa-star.selected ~ .fa-star {
+    color: #ffcf0f; /* Selected star color */
+  }
+  
+  
+/*  date  css   */
+
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/*  button css*/
+
+.button1 {
+    background-color: rgb(171, 168, 168);
+    margin-top: 10px;
+}
+
+
