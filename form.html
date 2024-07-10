@@ -7,7 +7,7 @@
     <meta name="author" content="Melinda Competente">
 
 
-    <title>HTML5 Product Review Form - Melinda P. Competente</title>
+    <title>Project_Service Review Form - Melinda P. Competente</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -19,40 +19,50 @@
 </head>
 
 <body>
+
+    <header>
+        <div class="topnav2">
+            <a class="active" href="Home.html">Home</a>
+            <a class="prod" href="http://127.0.0.1:5500/form.html">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#Siteplan">Siteplan</a>
+        </div>
+    </header>
     <div class="header_1">
         
-        <h1>Product Review</h1> 
+        <h1>Service Review</h1> 
         
     </div>
 
     <main>
         
         
+        
 
         <div class="body_1">
              
-            <h4>Product Name</h4> 
+            <h4>Services Offered</h4>
             <form action="review.html" method="get">
                 <select class="phil-product" id="product" name="product" required>
-                    <option value="">Choose a Product &#9662;</option>
-                    <option value="MC">Microwave</option>
-                    <option value="AC">Air Conditioning</option>
-                    <option value="EK">Electric Keetle</option>
-                    <option value="REF">Refrigerator</option>
-                    <option value="EF">Electric Fan</option>
-                    <option value="T">Toaster</option>
-                    <option value="D">Dishwasher</option>
-                    <option value="TV">Television</option>
+                    <option value="">Choose a Service &#9662;</option>
+                    <option value="AC">Accomodation</option>
+                    <option value="D">Dining</option>
+                    <option value="RA">Recreation and Activities</option>
+                    <option value="E">Event and Conference Activites</option>
+                    <option value="SW">Spa and Wellness</option>
+                    <option value="K">Kids Clubs</option>
+                    <option value="C">Concierge</option>
+                    <option value="GS">Guests Services</option>
                     <option value="FP">Food processor</option>
-                    <option value="FI">Flat Iron</option>
-                    <option value="AP">Air Purifier</option>
-                    <option value="F">Fryer</option>
-                    <option value="J">Juicer</option>
-                    <option value="MC">Multi Cooker</option>
-                    <option value="HEAT">Heater</option>
-                    <option value="O">Oven</option>
-                    <option value="CM">Coffee Maker</option>
-                    <option value="S">Stove</option>
+                    <option value="RS">Retail and Shops</option>
+                    <option value="ES">Environmental and Cultural Services</option>
+                    <option value="TS">Transportation Services</option>
+                    <option value="LA">Local Area Shuttle</option>
+                    <option value="PS">Pet Services</option>
+                    <option value="Bike">Bicycle Rentals</option>
+                    <option value="Transpo">Public Transportation Information</option>
+                    <option value="Elec">Electric Vehicle Charging Stations</option>
+                    <option value="P">Private Car Service:</option>
                 </select>
 
                 <h4> Overall Rating</h4>
@@ -73,10 +83,10 @@
                     Which feature did you find useful in the product?
                     (Check all that apply)
                   </h4>
-                  <label for="option1"><input type="checkbox" id="option1" name="options" class="checkbox"> Durability</label><br>
-                  <label for="option2"><input type="checkbox" id="option2" name="options" class="checkbox"> Ease of Use</label><br>
+                  <label for="option1"><input type="checkbox" id="option1" name="options" class="checkbox"> Location and Setting</label><br>
+                  <label for="option2"><input type="checkbox" id="option2" name="options" class="checkbox"> Guest Experience</label><br>
                   <label for="option3"><input type="checkbox" id="option3" name="options" class="checkbox"> Performace</label><br>
-                  <label for="option4"><input type="checkbox" id="option4" name="options" class="checkbox"> Design</label><br>
+                  <label for="option4"><input type="checkbox" id="option4" name="options" class="checkbox"> Facilities and Infrastructure</label><br>
 
                   <h4>Written Review (Optional)</h4>
                   <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Write your comment here..."></textarea>
@@ -94,10 +104,12 @@
         </div>
 
 </body>
+
 </main>
+
 <footer>
-    <p> &copy; <span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
-        <p>Last modification: <span id="lastModified"></span></p>
+    <p > &copy; <span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
+        <p class="infooter">Last modification: <span id="lastModified"></span></p>
     
 
     <script>

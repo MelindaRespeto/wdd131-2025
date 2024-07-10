@@ -1,5 +1,33 @@
 
 
+body{
+    margin: 0px;
+}
+
+.topnav2 {
+    overflow: hidden;
+    background-color: #333;
+    
+}
+.topnav2 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav2 a:hover {
+    
+    color: c;
+    
+  }
+
+.topnav2 a.prod {
+    background-color: rgba(16, 232, 109);
+    color: white;
+  }
+
 .header_1 {
     background-color: rgb(33, 30, 32);
     color: white;
@@ -109,5 +137,15 @@ button:hover {
     margin-top: 10px;
     border-radius: 4px;
 }
+footer {
+    background-color: rgb(174, 172, 172);
+    font-size: 10px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+}
 
+.infooter {
+    margin: 0px;
 
+}

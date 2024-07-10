@@ -1,6 +1,17 @@
-@media (max-width: 600px) {
+@media screen and (min-width: 600px) {
     nav, article {
       width: 100%;
       height: auto;
     }
+
+    .pic_Container {
+      width: auto;
+      height: 600px;
+      align-content: center;
+    }
+    img {
+      width: 400px;
+      height: 400px;
+    }
   }
+  
