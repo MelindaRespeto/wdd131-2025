@@ -3,77 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home: Partido Boulevard</title>
-    <link rel="stylesheet" href="project.css">
-    <link rel="html" href="form.html">
+    <title>Home:Partido Boulevard</title>
+    <link rel="stylesheet" href="homeproject.css">
     <link rel="stylesheet" href="project_large.css">
-    <script src="project.js"></script>
     <link rel="stylesheet" href="https://coolors.co/palette/ef476f-ffd166-06d6a0-118ab2-073b4c">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="project.js"></script>
 </head>
 <body>
-   
     <nav>
-    <div class="topnav">
-        <a class="active" href="#Home">Home</a>
-        <a href="http://127.0.0.1:5500/form.html">Services</a>
-        <a href="#contact">Contact</a>
-        <a href="#Siteplan">Siteplan</a>
-      </div>
+        <div class="topnav">
+            <a class="active" href="#Home">Home</a>
+            <a href="http://127.0.0.1:5500/form.html">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#Siteplan">Siteplan</a>
+        </div>
     </nav>
     
-    <main>
+<main>
+    <body>
         <header>
             <h1>Partido Boulevard</h1>
         </header>
 
-        <article>
-            <p>Town officials are optimistic that the boulevard will open business opportunities in the area,
-                such as beach resorts, hotels, restaurants, souvenir stores, and other tourism-related shops.
-            </p>
-            
-        </article>
-
-        <div class="pic_Container">
-            <div class="img">
-            <img src="images/partido_boulevard.jpg" alt="place" width="220" height="150"alt="Partido Boulevard" loading="lazy">  
-        </div>  
-
-       
-    </main>
-</body> 
-
+            <div class="pic_Container">
+                <div class="img1">
+                    
+                    <img src="images/partido_boulevard.jpg" alt="Partido Boulevard" width="100" height="150" loading="lazy">  
+         
+                <div class="img2">
+                    <img src="images/solo.jpg" alt="solo" width="100" height="150" loading="lazy">  
+            </div>
+     
+        </div>
+    </body>
+</main>
 
 <footer>
-    <p> &copy; <span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
-    <p >Last modification: <span id="lastModified"></span></p>
+        <p>&copy; <span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
+        <p>Last modification: <span id="lastModified"></span></p>
     
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            // Set current year in the footer
-            var currentYear = new Date().getFullYear();
-            document.getElementById("currentYear").textContent = currentYear;
-
-            // Get last modified date of the document
-            var lastModifiedDate = new Date(document.lastModified);
-            document.getElementById("lastModified").textContent = lastModifiedDate.toLocaleString();
-        });
-    </script>
-
-
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Set current year in the footer
+                var currentYear = new Date().getFullYear();
+                document.getElementById("currentYear").textContent = currentYear;
+    
+                // Get last modified date of the document
+                var lastModifiedDate = new Date(document.lastModified);
+                document.getElementById("lastModified").textContent = lastModifiedDate.toLocaleString();
+            });
+        </script>
 </footer>
- 
-
+</body>
 </html>
-                      
-        
-        
-
-    
-            
