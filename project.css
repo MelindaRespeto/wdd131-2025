@@ -4,7 +4,7 @@
   
   body {
     font-family: roboto, open sans;
-    background-color: aquamarine;
+    background-color: rgb(222, 229, 227);
   }
   
   
@@ -17,17 +17,30 @@
   }
   
   
-  nav {
-    float: left;
-    width: 30%;
-    height: 300px;
-    background:rgb(187, 245, 187);
-    padding: 20px;
-    font-size: large;
-    font:open sans;
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
   }
   
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
 
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
   nav ul {
     list-style-type: none;
     padding: 0;
@@ -36,7 +49,8 @@
   article {
     float: left;
     padding: 20px;
-    text-align: space around;
+    text-align: space around, justify;
+    text-justify: inter-word;
   }
   
   img {
@@ -47,10 +61,15 @@
    
   }
 
-  p{
-    text-align: center;
+  .h2 {
+    text-indent: 30px;
+    text-align:justify;
+    
   }
-  
+  p{
+    text-align:justify;
+    text-justify: inter-word;
+  }
   footer {
     background-color: #666;
     padding: 20px;

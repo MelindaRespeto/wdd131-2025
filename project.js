@@ -1,6 +1,5 @@
-<script>
-const currentYear = new Date().getFullYear();
 
+const currentYear = new Date().getFullYear();
 
 document.getElementByclassname("currentyear").textContent = currentYear;
 const currentDate = new Date();
@@ -11,4 +10,3 @@ const formattedDate = currentDate.toLocaleDateString("en-US", {
 });
 
 document.getElementById("currentDate").textContent = formattedDate;
-</script>
