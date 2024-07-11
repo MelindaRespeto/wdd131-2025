@@ -50,7 +50,9 @@ h1 {
     list-style-type: none;
     padding: 0;
   }
-  
+  a {
+    text-decoration: none;
+  }
   article {
     float: left;
     padding: 20px;
