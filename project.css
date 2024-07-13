@@ -20,15 +20,16 @@
   .topnav {
     overflow: hidden;
     background-color: #333;
+    font-size: 10px;
   }
   
-  .topnav a {
+  .topnav2 a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 10px;
   }
   
   .topnav a:hover {
@@ -73,17 +74,26 @@ h1 {
     text-align:justify;
     
   }
-  p{
+  .h1, .p{
     text-align:justify;
     text-justify: inter-word;
+   
   }
-  footer {
-    background-color: #642a2a;
+  <footer>
+    
+  <p>&copy; <span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
+  <p>Last modification: <span id="lastModified"></span></p>
 
-    text-align: center;
-    font-size: 10px;
-    color: white;
-    width: auto;
-    height: 50px;
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          // Set current year in the footer
+          var currentYear = new Date().getFullYear();
+          document.getElementById("currentYear").textContent = currentYear;
 
-  }
+          // Get last modified date of the document
+          var lastModifiedDate = new Date(document.lastModified);
+          document.getElementById("lastModified").textContent = lastModifiedDate.toLocaleString();
+      });
+  </script>
+  
+</footer>

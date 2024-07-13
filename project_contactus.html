@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactus</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <a class="active" href="http://127.0.0.1:5500/Home.html">Home</a>
+            <a href="http://127.0.0.1:5500/form.html">Services</a>
+            <a class="contactbut" href="project_contactus.html">Contact</a>
+            <a href="http://127.0.0.1:5500/site_plan.html">Siteplan</a>
+            
+        </div>
+    </nav>
+    <div class="chest">
+
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/hero.png" alt="People enjoying">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Be Happy and Stay Physically Healthy</h1>
+                <h4>Make Memories with Partido Bouevard</h4>
+                <div class='button-box'>
+                    <a class='book' href="contactus.html">Book Now</a>
+                </div>
+            </section>
+        </div>
+        <main>
+            <div id="feedback"></div>
+            <style>
+                #feedback {
+                    background-color: antiquewhite;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    padding: .5em;
+                    display: none;      
+                }
+                .moveDown {
+                    margin-top: 3em;
+                }
+                        
+            </style>
+            <form action="/my-handling-form-page" method="post">
+                
+                  <li>
+                    <label for="name">Name:  </label>
+                    <input class="name" type="text" id="name" name="user_name" />
+                  </li>
+                  <li>
+                    <label for="mail">Email  :  </label>
+                    <input class="mail" type="email" id="mail" name="user_email" />
+                  </li>
+                  <li>
+                    <label class="msg1"  for="msg">Message:</label>
+                    <textarea class="msg" id="msg"  name="user_message"></textarea>
+                  </li>
+                
+              </form>
+              <script>
+              
+                const feedbackElement = document.getElementById('feedback');
+                
+                const formElement = document.forms[0];
+            
+                formElement.addEventListener('submit', function(e) 
+                { 
+                    e.preventDefault();
+                    
+                    feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                    
+                    feedbackElement.style.display = "block";
+                
+                    document.body.classList.toggle('moveDown');
+                });
+            </script>
+
+        </main>
+    </div>
+            
+<footer>
+    
+    <p>&copy; <span id="currentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
+    <p>Last modification: <span id="lastModified"></span></p>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Set current year in the footer
+            var currentYear = new Date().getFullYear();
+            document.getElementById("currentYear").textContent = currentYear;
+
+            // Get last modified date of the document
+            var lastModifiedDate = new Date(document.lastModified);
+            document.getElementById("lastModified").textContent = lastModifiedDate.toLocaleString();
+        });
+    </script>
+    
+</footer> 
+</body>
+
+</html>

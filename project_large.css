@@ -6,12 +6,43 @@
 
     .pic_Container {
       width: auto;
-      height: 600px;
+      height: 400px;
       align-content: center;
     }
     img {
-      width: 400px;
-      height: 400px;
+      width: 450px;
+      height: 450px;
     }
+    .img1, .img2 {
+      display: flex;
+      height: auto;
+      justify-content: space-around;
+      background-color: #afabab;
+      align-items: center;
+      height: 100px;
+      color: #242424;
+      position: relative;
+      
+      
+      
+     
+  }
+  .pic1, .pic2 {
+    position:relative;
+    top: 0px;
+    transition:width 1s;
+  }
+
+  .pic1:hover, .pic2:hover {
+     width: 500px;
+      
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+
+
   }
   

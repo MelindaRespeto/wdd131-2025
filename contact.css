@@ -1,6 +1,5 @@
-* {
-    box-sizing: border-box;
-}
+
+
 
 body {
     font-family: 'Roboto', 'Open Sans';
@@ -35,86 +34,64 @@ header {
     color: rgb(16, 232, 109);
 }
 
-.topnav a.active {
+.topnav a.contactbut {
     background-color: rgb(16, 232, 109);
     color: white;
 }
 
+
 h1 {
-    font-size: 30px;
+    text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-article {
-    float: left;
-    padding: 20px;
-    text-align: justify;
-}
-.pic_Container{
-    width: auto;
-    height: 500px;
-
-}
-
-.image-container {
-    display:inline-flex;
+.name, .mail, .msg {
+   width: 150px;
+   height: 20px;
+   box-sizing: border-box;
+   
    
 }
-
-.pictext {
-   
-    background: 0;
-    padding: 10px;
-}
-
-.column {
-    flex: 1;
-    margin: 0 10px;
-}
-
-.img1, .img2 {
-    max-width: 100%;
-    height: auto;
-    justify-content: space-around;
-    background-color: #afabab;
-    align-items: center;
-    height: 100vh;
-    color: #242424;
-    position: relative;
-    top: 0;
+.msg1 {
+    font-size: 11px;
     
-   
 }
 
-
-
-
-.h2 {
-    text-indent: 30px;
-    text-align: justify;
+.chest {
+    height: 400px;
 }
 
-p {
-    text-align: justify;
+li {
+    padding: 15px;
 }
 
 footer {
     position: relative;
-    bottom: 5px;
+    bottom: 1px;
     background-color: #666;
     padding: 10px;
     text-align: center;
     font-size: 15px;
     color: white;
+    
     width: auto;
     
-    
 }
-
 footer p{
     font-size: 10px;
+}
+
+
+
+
+
+@media screen and (min-width: 600px) {
+
+    
+
+    marker {
+        text-align: center;
+    }
+    body {
+        text-align: center;
+    }
 }

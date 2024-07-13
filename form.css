@@ -1,7 +1,8 @@
 
 
-body{
-    margin: 0px;
+body {
+    font-family: 'Roboto', 'Open Sans';
+    background-color: rgb(127, 130, 129);
 }
 
 .topnav2 {
@@ -15,7 +16,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 10px;
   }
 .topnav2 a:hover {
     
