@@ -1,4 +1,4 @@
-/* 64em is also 1028px (if basefont is 16px) */
+
 @media only screen and (min-width: 64rem) {
 
     header, nav, main, footer {
