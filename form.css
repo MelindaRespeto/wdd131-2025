@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'Roboto', 'Open Sans';
     background-color: rgb(127, 130, 129);
@@ -8,8 +6,8 @@ body {
 .topnav2 {
     overflow: hidden;
     background-color: #333;
-    
 }
+
 .topnav2 a {
     float: left;
     color: #f2f2f2;
@@ -17,17 +15,16 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 10px;
-  }
+}
+
 .topnav2 a:hover {
-    
     color: #d66666;
-    
-  }
+}
 
 .topnav2 a.prod {
     background-color: rgba(16, 232, 109);
     color: white;
-  }
+}
 
 .header_1 {
     background-color: rgb(33, 30, 32);
@@ -42,17 +39,16 @@ body {
     padding: 10px;
     margin-top: 20px;
 }
+
 .phil-product {
     width: 300px;
     border-radius: 6px;
     padding: 8px;
-    border-radius: 1px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
 }
 
 /*  rating css   */
-
 .rating {
     display: inline-block;
     unicode-bidi: bidi-override;
@@ -61,37 +57,31 @@ body {
     height: 40px;
     position: relative;
     width: auto;
-  }
-  
-  .rating .fa-star {
+}
+
+.rating .fa-star {
     cursor: pointer;
     float: left; /* Align stars from left to right */
     transition: color 0.3s ease; /* Smooth transition for color change */
-  }
-  
-  .rating .fa-star:hover,
-  .rating .fa-star:hover ~ .fa-star {
+}
+
+.rating .fa-star:hover,
+.rating .fa-star:hover ~ .fa-star {
     color: #ffcf0f; /* Change color on hover */
-  }
-  
-  .rating .fa-star.selected,
-  .rating .fa-star.selected ~ .fa-star {
+}
+
+.rating .fa-star.selected,
+.rating .fa-star.selected ~ .fa-star {
     color: #ffcf0f; /* Selected star color */
-  }
-  
-  
+}
+
 /*  date  css   */
-
-
-
 .container {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
-    
-
 }
 
 h2 {
@@ -115,9 +105,8 @@ input[type="date"] {
     margin-bottom: 15px;
 }
 
-
 button {
-    padding: 20px 30px;
+    padding: 10px 20px;
     background-color: #91ee94;
     color: white;
     border: none;
@@ -130,14 +119,13 @@ button:hover {
     background-color: #45a049;
 }
 
-
 /*  button css*/
-
 .button1 {
     background-color: rgb(171, 168, 168);
     margin-top: 10px;
     border-radius: 4px;
 }
+
 footer {
     background-color: rgb(174, 172, 172);
     font-size: 10px;
@@ -148,5 +136,4 @@ footer {
 
 .infooter {
     margin: 0px;
-
 }
