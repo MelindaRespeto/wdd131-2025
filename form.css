@@ -48,7 +48,7 @@ body {
     border: 1px solid #ccc;
 }
 
-/*  rating css   */
+
 .rating {
     display: inline-block;
     unicode-bidi: bidi-override;
@@ -61,21 +61,22 @@ body {
 
 .rating .fa-star {
     cursor: pointer;
-    float: left; /* Align stars from left to right */
-    transition: color 0.3s ease; /* Smooth transition for color change */
+    float: left; 
+    transition: color 0.3s ease; 
 }
 
 .rating .fa-star:hover,
-.rating .fa-star:hover ~ .fa-star {
-    color: #ffcf0f; /* Change color on hover */
+.rating .fa-star:hover ~ .fa-star 
+{
+    color: #ffcf0f; 
 }
 
 .rating .fa-star.selected,
 .rating .fa-star.selected ~ .fa-star {
-    color: #ffcf0f; /* Selected star color */
+color: #ffcf0f; 
 }
 
-/*  date  css   */
+
 .container {
     background-color: #fff;
     padding: 20px;
