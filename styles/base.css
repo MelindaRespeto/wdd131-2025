@@ -71,7 +71,8 @@ nav ul li a:hover {
 .shaded{
     font-size: small;
     font-style: sans-serif;
-    justify-content: center;
+    text-justify: center;
+    padding:3px;
 }
 
 footer h1 {
