@@ -12,7 +12,7 @@
     <link rel="scripts" href="filtered-temples.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" >
+    <link href rel="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" >
     <meta name="author" content="Melinda Competente">
 
 
@@ -122,9 +122,18 @@
     </main>
     <footer>
        
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    
+                    var currentYear = new Date().getFullYear();
+                    document.getElementById("currentYear").textContent = currentYear;
+        
+                    
+                    var lastModifiedDate = new Date(document.lastModified);
+                    document.getElementById("lastModified").textContent = lastModifiedDate.toLocaleString();
+                });
+            </script>
 
-        <p>Footer content&copy;<span id="CurrentYear"></span> Copyright 2024 Melinda Competente Philippines</p>
-        <p>Last modification: <span id="lastModified"></span></p>
     </footer>
 
 
