@@ -60,19 +60,27 @@ nav ul li a:hover {
 
 }
 
+
+.me{
+    float:left;
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.shaded{
+    font-size: small;
+    font-style: sans-serif;
+    justify-content: center;
+}
+
 footer h1 {
     text-align: center;
     background-color: lightblue;
     
     padding: 15px;
     text-align: center; 
+}
     
-}
-.shaded{
-    font-size: small;
-    font-style: sans-serif;
-    text-align: justify;
-}
 
 p, ul {
     text-align: center;

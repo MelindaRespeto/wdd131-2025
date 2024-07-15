@@ -76,6 +76,9 @@ article {
     margin: 0 10px;
 }
 
+.me{
+    justify-content: left;
+}
 .img1, .img2 {
     max-width: 100%;
     height: auto;
