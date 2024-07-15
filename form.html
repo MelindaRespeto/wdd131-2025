@@ -74,7 +74,14 @@
                 <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Write your comment here..."></textarea>
 
                 <h4>Your Name (Optional)</h4>
-                <input type="text" id="name" name="name" placeholder="Enter your name...">
+                <input type="text" id="name" name="name" placeholder="Enter your name..." list="nameSuggestions">
+                <datalist id="nameSuggestions">
+                    <option value="Melinda Competente">
+                    <option value="Maria Paghanapa">
+                    <option value="Pedro Brown">
+                    <option value="Jonas Cape">
+                    <option value="Sugar Brown">
+                </datalist>
                 
                 <button type="submit" class="button1">Post Review</button>
             </form>
