@@ -15,7 +15,7 @@ body {
 
 
 header {
-    background: #333;
+    background: rgb(32, 110, 136);
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -25,6 +25,7 @@ nav ul {
     display: flex;
     justify-content: center;
     margin: 20px 0;
+    background-color: black;
 }
 
 nav ul li {
@@ -37,7 +38,11 @@ nav ul li a {
     font-weight: bold;
 }
 
+.h2 {
+    background: rgb(32, 110, 136);
+    justify-content: center;
 
+}
 .container {
     width: 80%;
     margin: 20px auto;
@@ -87,7 +92,7 @@ nav ul li a {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: rgb(32, 110, 136);
     color: #fff;
     position: relative;
     bottom: 0;
