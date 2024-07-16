@@ -9,7 +9,7 @@
 @media (min-width:1000px){
     
     .div1 {
-        background-color: rgba(255, 251, 251, 0.7);
+        background-color: rgba(255, 255, 251, 0.7);
         margin: 20px;
         width: 250px;
         height: 350px;
@@ -23,7 +23,7 @@
 
     body{
 
-        background: url('boracay-3031029_1280.jpg');
+        background: url('boracay-4898724_1280.jpg');
         margin: 0px;
         background-repeat: no-repeat;
         background-size:cover;
@@ -88,7 +88,7 @@
         margin: 0px;
     }
     .divfooter {
-        background-color: red;
+        background-color:  #e01f32;
        
         width: 1650px;
         position: relative;
@@ -106,7 +106,7 @@
         width: auto;
     }
     .main {
-        background-color: rgba(255, 251, 251, 0.0);
+        background-color: rgba(255, 0, 98, 0);
     }
 
     .pic::after {
