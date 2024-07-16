@@ -43,7 +43,6 @@ h2 {
     background: rgb(32, 110, 136);
     text-align: center ;
     color: #f4f4f4;
-    max-width: auto;
     padding-bottom: 10px;
     padding-top: 10px;
     
@@ -58,6 +57,8 @@ h3{
     flex-wrap: wrap;
     margin:20px;
     flex-wrap: wrap;
+    align-items: center;
+    gap:10px;
 }
 
 .grid {
@@ -83,12 +84,10 @@ h3{
     word-wrap: break-word;
 }
 
-.me {
-    margin-bottom: 20px;
-}
-
 .me img {
     border-radius: 50%;
+   
+    
 }
 
 
@@ -97,6 +96,7 @@ h3{
     padding: 20px;
     background: #fff;
     border-radius: 5px;
+    flex: 1;
 }
     
 
