@@ -70,7 +70,7 @@ nav ul li a:hover {
 }
 .shaded{
     font-size: small;
-    font-style: sans-serif;
+    font-style: inherit;
     text-align: justify;
     padding:3px;
 }
@@ -90,7 +90,7 @@ footer h1 {
 p, ul {
     text-align: center;
     justify-content: center;
-    font-style: verdana;
+    font-style: inherit;
     text-indent: 3%;
     
     
