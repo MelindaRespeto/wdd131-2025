@@ -10,12 +10,13 @@
     <title>WDD 131 - Boracay Philippines - Melinda Competente</title>
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-large.css">
-    <script src="place.js" defer></script>
+    <script src="scripts/place.js" defer></script>
     <meta name="author" content="Melinda Competente">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     
     
@@ -24,10 +25,14 @@
     </header>
     
     <img src="image/boracay.webp"
-    srcset="image/boracay.webp 320w,
-            image/boracay.webp 480w,
-            image/boracay.webp 800w"
-    alt="Beautiful boracay" class="pic">
+     srcset="image/boracay-320w.webp 320w,
+             image/boracay-480w.webp 480w,
+             image/boracay-800w.webp 800w"
+     sizes="(max-width: 600px) 320px,
+            (max-width: 1000px) 480px,
+            800px"
+     alt="Beautiful boracay" class="pic">
+
     
     <div class="pic2_container">
         <img src="styles/boracay-4898724_1280.jpg" alt="oks" class="pic2">
@@ -51,7 +56,7 @@
         <p>Wind: 5 m/h</p>
         <p>Wind Chill: 88.39 (sample)</p>
     </div>
-
+   
     
     <footer>
         <p>Melinda Competente © 2024 Caramoan, Philippines</p>
