@@ -1,10 +1,17 @@
+<script>
+        // Function to display last modified date
+        function updateLastModified() {
+            const lastModified = document.lastModified;
+            document.getElementById('last-modified').textContent = lastModified;
+        }
 
-const today = new Date();
+        // Function to display current year
+        function updateYear() {
+            const year = new Date().getFullYear();
+            document.getElementById('current-year').textContent = year;
+        }
 
-const shortDate = new Intl.DateTimeFormat("en-US", {
-    dateStyle: "short"
-}).format(today);
-
-console.log(shortDate); // To display the formatted date in the console
-
-
+        // Initial calls to display last modified date and year
+        updateLastModified();
+        updateYear();
+    </script>
