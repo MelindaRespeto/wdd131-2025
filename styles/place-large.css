@@ -22,11 +22,33 @@
     }
 
     body{
-        background: url('boracay.jpg');
+
+        background: url('boracay-3031029_1280.jpg');
         margin: 0px;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:cover;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+
+    }
+
+    .pic {
         
+        display: none;
+    }
+
+    .pic2 {
+        
+        display: flex;
+        width: 30%;
+        height: 30%;
+        
+        
+    }
+    .pic2_container {
+        place-items: center;
     }
 
     .div2 {
@@ -74,6 +96,7 @@
     }
     footer {
         width: 1690px;
+        
     }
     .footer1{
         width: 2690px;
@@ -88,10 +111,10 @@
 
     .pic::after {
         
-        position: relative;
         left: 240px;
         height: 280px;
         transform: translateX(-50%);
+
         
         
         
