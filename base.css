@@ -95,3 +95,6 @@ p, ul {
     
     
 }
+.p{
+    justify-content: space-around;
+}
