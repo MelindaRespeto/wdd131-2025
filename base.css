@@ -38,16 +38,21 @@ nav ul li a {
     font-weight: bold;
 }
 
-.h2 {
+h2{
     background: rgb(32, 110, 136);
-    justify-content: center;
-
+    text-align: center ;
+    color: #f4f4f4;
+    max-width: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
 }
 .container {
     width: 80%;
     margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
+    margin:20px
 }
 
 .grid {
