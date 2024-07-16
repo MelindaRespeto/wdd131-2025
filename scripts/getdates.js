@@ -1,5 +1,4 @@
 
-        
         function updateLastModified() {
             const lastModified = document.lastModified;
             document.getElementById('last-modified').textContent = lastModified;
@@ -11,7 +10,5 @@
             document.getElementById('current-year').textContent = year;
         }
 
-    
         updateLastModified();
-        updateYear();
-    
+        updateYear()
