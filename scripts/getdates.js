@@ -1,4 +1,4 @@
-<script src="scripts/getdates.js"></script>
+
         function updateLastModified() {
             const lastModified = document.lastModified;
             document.getElementById('last-modified').textContent = lastModified;
