@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 body, h1, h2, h3, h4, p, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
     overflow-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -42,6 +44,7 @@ h2 {
     color: #f4f4f4;
     padding-bottom: 10px;
     padding-top: 10px;
+    width: 100%;
 }
 
 h3 {
