@@ -1,5 +1,9 @@
-
-
+.logo {
+    width: 50%;
+    max-width: 150px;
+    height: auto;
+}
+    
 
 body {
     font-family: 'Roboto', 'Open Sans';
