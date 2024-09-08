@@ -10,7 +10,7 @@
     }
 
     body{
-        background: url('styles/image/boracay.jpg');
+        background: url(styles/image/boracay.jpg);
         margin: 0px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -19,7 +19,7 @@
     }
 
     .div2 {
-        background-color: rgba(255, 251, 251, 0.7);
+        background-color: rgba(179, 102, 102, 0.7);
         margin: 20px;
         width: 250px;
         height: 310px;
@@ -55,7 +55,7 @@
         margin: 0px;
     }
     .divfooter {
-        background-color: red;
+        background-color: rgb(68, 47, 47);
        
         width: 1650px;
         position: relative;

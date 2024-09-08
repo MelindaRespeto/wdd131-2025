@@ -1,0 +1,22 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: azure;
+}
+
+h1 {
+    font-weight: bold; /* Changed from font-style to font-weight */
+    font-size: 50px;
+}
+
+h2 {
+    font-style: inherit; /* This is correct and will inherit the font style from its parent */
+    color: rgb(255, 208, 127);
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
