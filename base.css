@@ -5,6 +5,7 @@ body, h1, h2, h3, h4, p, ul, li {
     padding: 0;
     list-style: none;
     overflow-wrap: break-word;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -89,8 +90,9 @@ h3 {
     margin-top: 20px;
     padding: 20px;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 0px;
     flex: 1;
+    text-align: justify;
 }
 
 footer {
