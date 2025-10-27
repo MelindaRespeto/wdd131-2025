@@ -28,6 +28,35 @@ header span {
   font-size: 1rem;
   margin-top: 0.3rem;
 }
+nav {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;        /* removes bullet points */
+      display: flex;           /* makes list items horizontal */
+      justify-content: center; /* centers menu horizontally */
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin: 0 20px;          /* spacing between menu items */
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 8px 12px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;  /* hover effect */
+      border-radius: 5px;
+    }
 
 /* === Main === */
 main {
