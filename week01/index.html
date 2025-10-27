@@ -1,68 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Required meta elements -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Web Design</title>
-  <link rel="stylesheet" href="base.css">
+  
+  <!-- Title -->
+  <title>WDD 131 – Dynamic Web Fundamentals – Your Name</title>
+  
+  <!-- Meta description -->
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals by Your Full Name. Learn HTML, CSS, and JavaScript for creating dynamic and interactive web pages.">
+  
+  <!-- Meta author -->
+  <meta name="author" content="Your Full Name">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles/base.css">
 </head>
+
 <body>
   <header>
-    <h1>MY FIRST WEB DESIGN</h1>
-    <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Favorite Scripture</a></li>
+        <li><a href="#" target="_blank">Final Project</a></li> <!-- Placeholder -->
       </ul>
     </nav>
   </header>
 
   <main>
-    <!-- ✅ First card section -->
+    <h1>Your Full Name</h1>
+    
     <section class="card">
-      <div class="column">
-        <h2>MELINDA P. COMPETENTE</h2>
-        <img src="images/melinds.jpg" alt="melinda" width="200" height="250">
-        <div class="column1">
-          I am passionate about continuous learning and the pursuit of new knowledge. 
-          I believe in sharing what I learn to inspire and empower others to apply it meaningfully 
-          in their own lives. I take pride in being from the beautiful country of the Philippines.
-        </div>
-      </div>
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="A photo of me" width="250">
+      <p>Hello! My name is Your Full Name. I am from the beautiful country of the Philippines. I love learning new things and sharing knowledge with others to help them grow.</p>
     </section>
 
-    <!-- ✅ Second card section -->
     <section class="card">
-      <div class="column2"> 
-        <div class="column left" style="background-color:#868181;">
-          <h1>Web Dev Resources</h1>
-          <ul>   
-            <li><a href="#">Dev. to Community</a></li>
-            <li><a href="#">Smashing Magazine</a></li>
-            <li><a href="#">CSS Tricks</a></li>
-            <li><a href="#">W3 Schools</a></li>
-            <li><a href="#">Udemy</a></li>
-            <li><a href="#">Modules</a></li>
-          </ul>
-        </div>
-        <p>
-          The aforementioned resources serve as my primary references for enhancing my knowledge 
-          and skills in web development. They offer valuable insights, practical examples, 
-          and current industry practices that help me stay informed and continuously improve my craft.
-        </p>
-      </div>
+      <h2>My Country</h2>
+      <img src="images/philippines.jpg" alt="Beautiful view of the Philippines" width="350">
+      <p>The Philippines is known for its beautiful beaches, warm people, and rich culture. It is an archipelago located in Southeast Asia, filled with natural wonders and traditions.</p>
     </section>
   </main>
 
-  <!-- ✅ Corrected footer -->
   <footer>
-    <p>&copy; <span id="copyright"></span></p>
-    <p>Last Modified: <span id="lastModified"></span></p>
+    <p>&copy; <span id="year"></span> Your Full Name | Philippines</p>
+    <p id="lastModified"></p>
   </footer>
 
-  <script src="scripts/getdates.js"></script>
+  <script>
+    // JavaScript to dynamically show current year and last modified date
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('lastModified').textContent = "Last Modified: " + document.lastModified;
+  </script>
 </body>
 </html>
