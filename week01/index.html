@@ -8,10 +8,14 @@
   <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
+
+  <!-- Header Section -->
   <header>
     <h1>MY FIRST WEB DESIGN</h1>
     <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
-    <nav>
+
+    <!-- Navigation -->
+    <nav aria-label="Main Navigation">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Projects</a></li>
@@ -21,10 +25,12 @@
     </nav>
   </header>
 
+  <!-- Main Content -->
   <main>
-    <!-- ✅ First card section with two columns -->
+
+    <!-- First Card -->
     <section class="card">
-      <img src="images/melinds.jpg" alt="melinda">
+      <img src="images/melinds.jpg" alt="Photo of Melinda Competente">
       <div>
         <h2>MELINDA P. COMPETENTE</h2>
         <p>
@@ -35,33 +41,34 @@
       </div>
     </section>
 
-    <!-- ✅ Second card section -->
+    <!-- Second Card -->
     <section class="card">
-      <div class="column left" style="background-color:#868181;">
-        <h1>Web Dev Resources</h1>
+      
+      <div>
+        <h2>WEB DEVELOPMENT RESOURCES</h2>
         <ul>   
-          <li><a href="#">Dev. to Community</a></li>
-          <li><a href="#">Smashing Magazine</a></li>
-          <li><a href="#">CSS Tricks</a></li>
-          <li><a href="#">W3 Schools</a></li>
-          <li><a href="#">Udemy</a></li>
-          <li><a href="#">Modules</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">Dev. to Community</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">Smashing Magazine</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">CSS Tricks</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">W3 Schools</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">Udemy</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">Modules</a></li>
         </ul>
+        <p>
+          These resources serve as my primary references for enhancing my knowledge 
+          and skills in web development. They offer valuable insights, practical examples, 
+          and current industry practices that help me stay informed and continuously improve my craft.
+        </p>
       </div>
-      <p>
-        The aforementioned resources serve as my primary references for enhancing my knowledge 
-        and skills in web development. They offer valuable insights, practical examples, 
-        and current industry practices that help me stay informed and continuously improve my craft.
-      </p>
     </section>
+
   </main>
 
-  <!-- ✅ Corrected footer -->
+  <!-- Footer -->
   <footer>
-    <p>&copy; <span id="copyright">Melinda Competente</span></p>
+    <p>&copy; <span id="copyright"></span></p>
     <p>Last Modified: <span id="lastModified"></span></p>
   </footer>
 
-  <script src="scripts/getdates.js"></script>
 </body>
 </html>

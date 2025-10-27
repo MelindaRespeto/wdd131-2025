@@ -8,12 +8,20 @@
   box-sizing: border-box;
 }
 
+/* === Body === */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
 /* === Header === */
 header {
-  display: flex;              /* Flexbox requirement */
-  flex-direction: column;     /* Stack elements vertically */
-  align-items: center;        /* Center horizontally */
-  justify-content: center;    /* Center vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #1E3A8A;
   color: #FFFFFF;
   padding: 1.5rem;
@@ -35,13 +43,14 @@ header span {
 /* === Navigation === */
 nav {
   background-color: #333;
-  padding: 10px 0;
+  width: 100%;
+  margin-top: 1rem;
 }
 
 nav ul {
   list-style: none;
-  display: flex;           /* Horizontal menu */
-  justify-content: center; /* Center items */
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -55,15 +64,15 @@ nav a {
   text-decoration: none;
   font-size: 18px;
   padding: 8px 12px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 nav a:hover {
-  background-color: #555;  /* Hover effect */
+  background-color: #555;
   border-radius: 5px;
 }
 
-/* === Main === */
+/* === Main Content === */
 main {
   display: grid; /* Grid requirement */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -74,12 +83,12 @@ main {
   background-color: #929db3;
 }
 
-/* === Cards inside main === */
+/* === Card Sections === */
 section.card {
-  display: flex;                /* Flexbox for two columns */
-  flex-direction: row;          /* Image and text side by side */
-  align-items: flex-start;      /* Align content at top */
-  gap: 1rem;                    /* Space between columns */
+  display: flex;               /* Flexbox inside each card */
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
   background-color: #ffffff;
   border-radius: 10px;
   padding: 1rem;
@@ -88,35 +97,35 @@ section.card {
 }
 
 section.card img {
-  width: 40%;                   /* Image column width */
+  width: 40%;
   border-radius: 10px;
   object-fit: cover;
 }
 
 section.card div {
-  width: 60%;                   /* Text column width */
+  width: 60%;
 }
 
 section.card:hover {
-  transform: translateY(-5px);  /* Hover effect */
+  transform: translateY(-5px);
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* === Responsive: Stack columns on small screens === */
+/* === Responsive Design === */
 @media (max-width: 600px) {
   section.card {
-    flex-direction: column;     /* Image above text */
+    flex-direction: column;
   }
-  
+
   section.card img,
   section.card div {
-    width: 100%;                /* Full width on small screens */
+    width: 100%;
   }
 }
 
 /* === Footer === */
 footer {
-  display: flex;            /* Flexbox usage */
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -129,4 +138,24 @@ footer {
 
 footer p {
   margin: 0.3rem 0;
+}
+
+/* === Typography === */
+h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #F59E0B;
 }
